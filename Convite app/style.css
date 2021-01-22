@@ -1,0 +1,183 @@
+body {
+    background: rgb(104, 47, 47);
+    margin: 0;
+    padding: 0;
+}
+
+.main-activity {
+    display: flex;
+}
+
+.versiculo {
+    font-size: 18pt;
+    font-style: italic;
+    color: rgb(102, 51, 51);
+    margin-top: -5px;
+}
+
+.nome-pais {
+    display: flex;
+}
+
+.nome-pais p {
+    margin: 0px 50px;
+    font-family: 'Rouge Script', cursive;
+    font-size: 20pt;
+}
+
+.left {
+    width: 260px;
+    height: 100vh;
+    background-color: rgb(97, 52, 52);
+    display: flex;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-right: 20px;
+    box-shadow: 10px 5px 9px rgba(36, 36, 36, 0.753);
+}
+
+.right {
+    width: 260px;
+    height: 100vh;
+    background-color: rgb(97, 52, 52);
+    display: flex;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 150px;
+    margin-left: 20px;
+    box-shadow: -10px 5px 9px rgba(36, 36, 36, 0.842);
+}
+
+
+.main {
+    width: 810px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 218, 218);
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Rouge Script', cursive;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    font-size: 40pt;
+    margin-top: 15px;
+}
+
+.e {
+    color: rgb(128, 49, 49);
+    font-weight: bold;
+}
+
+.convidativo {
+    text-transform: uppercase;
+    font-size: 16pt;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -20px;
+}
+
+.data {
+    font-size: 21pt;
+    font-family: 'Roboto', sans-serif;
+}
+
+.local {
+    margin-top: -10px;
+    font-size: 13pt;
+    text-align: center;
+}
+
+.observacao {
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.link {
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid brown;
+    border-radius: 10px;
+    color: brown;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    .main-activity {
+        flex-direction: column;
+    }
+
+    body {
+        background-color: rgb(247, 218, 218);
+    }
+
+    .main {
+        width: 100vw;
+    }
+
+    .flower {
+        width: 200px;
+    }
+
+    .versiculo {
+        font-size: 13pt;
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .nome-pais {
+        flex-direction: column;
+    }
+
+    .nome-pais p {
+        margin-bottom: 10px;
+        font-size: 16pt;
+        text-align: center;
+    }
+
+    .left {
+        height: 60px;
+        width: 100vw;
+        border-radius: 0px 0px 300px 300px;
+        box-shadow: 5px 5px 10px rgba(90, 90, 90, 0.089);
+    }
+
+    h1 {
+        font-size: 35pt;
+    }
+
+    .convidativo {
+        text-align: center;
+        font-size: 12pt;
+    }
+
+    .data {
+        text-align: center;
+        font-size: 14pt;
+    }
+
+    .observacao {
+        font-size: 12pt;
+    }
+
+    .foot {
+        font-size: 10pt;
+    }
+
+    .link {
+        padding: 5px;
+        text-decoration: none;
+        border: 2px solid brown;
+        border-radius: 10px;
+        color: brown;
+    }
+
+    .right {
+        height: 60px;
+        width: 100vw;
+        border-radius: 300px 300px 0px 0px;
+        box-shadow: 5px 5px 10px rgba(90, 90, 90, 0.089);
+        margin: 0;
+    }
+}
